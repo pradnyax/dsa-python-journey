@@ -41,13 +41,13 @@ class LinkedList:
         pre = self.head
 
         # normal linkedlist with 2 or more items.
-        while temp.next:  # Or while temp.next is not None:
+        while temp.next:  # type: ignore # Or while temp.next is not None:
             pre = temp
-            temp = temp.next
+            temp = temp.next  # type: ignore
 
         # set the new tail
         self.tail = pre
-        self.tail.next = None
+        self.tail.next = None  # type: ignore
         self.length -= 1
 
         # edge case 2 (there is only 1 node in linked list)
