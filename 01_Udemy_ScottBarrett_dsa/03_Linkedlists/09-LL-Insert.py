@@ -1,4 +1,5 @@
-# insert ==> adding a node/item in the LL, at beginning or end or in the middle.
+# insert ==> Add at a specific position/index
+# adding a node/item in the LL, at beginning or end or in the middle.
 
 
 class Node:
