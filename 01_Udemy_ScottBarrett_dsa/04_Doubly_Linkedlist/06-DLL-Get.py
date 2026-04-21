@@ -44,13 +44,13 @@ class DoublyLinkedList:
         temp = self.head
         if index < self.length / 2:
             for _ in range(index):
-                temp = temp.next
+                temp = temp.next # type: ignore
 
         # edge case3: if item is in the second half of the DLL
         else:
             temp = self.tail
             for _ in range(self.length - 1, index, -1):
-                temp = temp.prev
+                temp = temp.prev # type: ignore
         return temp
 
 
