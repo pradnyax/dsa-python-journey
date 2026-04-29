@@ -1,0 +1,7 @@
+Trees are a form of graphs, but they have the limitation that each node can only point to two other nodes.
+And when we looked at trees, we had mentioned that we had seen a tree before, which was a linked list.
+So linked lists are a form of a tree, and a tree is a form of a graph.
+Therefore, a linked list is a form of a graph with the limitation that they can only point to one other node.
+
+1. Adjacency Matrix
+2. Adjacency list
